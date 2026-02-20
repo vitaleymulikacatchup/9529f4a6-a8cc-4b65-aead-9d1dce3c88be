@@ -164,8 +164,7 @@ export default function LandingPage() {
             {
               number: '03',
               title: 'Cozy Atmosphere',
-              description: 'Relax in our welcoming space, designed for comfort and connection. It\'s your perfect escape.',
-              tag: 'Inviting',
+              description: "Relax in our welcoming space, designed for comfort and connection. It's your perfect escape.",              tag: 'Inviting',
             },
           ]}
           stepsAnimation="slide-up"
@@ -227,8 +226,7 @@ export default function LandingPage() {
             },
             {
               id: '6',
-              name: 'Liam O\'Connell',
-              role: 'Barista Trainer',
+              name: "Liam O'Connell",              role: 'Barista Trainer',
               company: 'Coffee Academy',
               rating: 5,
               imageSrc: 'https://img.b2bpic.net/free-photo/young-man-wearing-blue-outfit-looking-happy_1298-197.jpg',

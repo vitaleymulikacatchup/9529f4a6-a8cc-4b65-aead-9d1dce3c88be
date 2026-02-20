@@ -89,7 +89,6 @@ export default function ShopPage() {
                         logoText="Bayka"
                         leftLink={{ text: "Privacy Policy", href: "/privacy" }}
                         rightLink={{ text: "Terms of Service", href: "/terms" }}
-                        useInvertedBackground={false}
                     />
                 </div>
             </ReactLenis>

@@ -27,14 +27,10 @@ export default function BlogPage() {
                 <NavbarLayoutFloatingOverlay
                     navItems={[
                         { name: "Home", id: "/" },
-                        { name: "Menu", id: "menu" },
-                        { name: "About", id: "about" },
-                        { name: "Testimonials", id: "testimonials" },
-                        { name: "FAQ", id: "faq" },
-                        { name: "Contact", id: "contact" },
+                        { name: "Blog", id: "/blog" },
                     ]}
                     brandName="Bayka"
-                    button={{ text: "Order Now", href: "#menu" }}
+                    button={{ text: "Order Now", href: "/#menu" }}
                     className="py-4 px-6"
                     buttonClassName="px-5 py-2"
                 />
@@ -60,7 +56,6 @@ export default function BlogPage() {
                         logoText="Bayka"
                         leftLink={{ text: "Privacy Policy", href: "/privacy" }}
                         rightLink={{ text: "Terms of Service", href: "/terms" }}
-                        useInvertedBackground={false}
                     />
             </ReactLenis>
         </ThemeProvider>
